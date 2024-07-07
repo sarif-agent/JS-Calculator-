@@ -3,7 +3,10 @@ const display = document.getElementById('display');
 let currentResult = 0;
 let currentOperator = "";
 
+let mySound = new Audio('buttonpress.mp3')
+
 function appendToDisplay(input) {
+  mySound.play()
   if (isOperator(input)) {
     if (display.value !== "") {
       if (currentOperator !== "") {
