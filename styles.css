@@ -84,3 +84,10 @@ button:active {
 .operator-btn:active {
   background-color: hsl(0, 100%, 70%);
 }
+
+footer a {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
