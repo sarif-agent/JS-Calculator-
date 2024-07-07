@@ -1,3 +1,12 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 #calculator {
   font-family: "Montserrat", sans-serif;
   background-color: hsl(0, 0%, 15%);
@@ -13,7 +22,8 @@
   font-size: 5rem;
   text-align: left;
   border: none;
-  color: hwb(0 57% 43% / 0.801);
+  color: rgb(255, 255, 255);
+  background-color: hsla(0, 0%, 17%, 0.863);
 }
 
 #keys {
@@ -34,4 +44,25 @@ button {
   font-size: 3rem;
   font-weight: bold;
   cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 40%);
+}
+
+button:active {
+  background-color: hsl(0, 0%, 50%);
+}
+
+.operator-btn {
+  background-color: hsl(0, 100%, 55%);
+}
+
+.operator-btn:hover {
+  background-color: hsl(0, 0%, 0%);
+}
+
+.operator-btn:active {
+  background-color: hsl(0, 100%, 70%);
+  ;
 }
