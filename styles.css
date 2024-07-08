@@ -85,9 +85,21 @@ button:active {
   background-color: hsl(0, 100%, 70%);
 }
 
-footer a {
+footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+footer a {
   color: white;
   text-align: center;
+  text-decoration-line: none;
+}
+
+img {
+  padding: 5px;
+  width: 25px;
+  height: 25px;
 }
